@@ -1,0 +1,16 @@
+variables 
+loops
+conditional
+functions
+arrow functions
+array
+objects
+Dom events
+hoisting
+scoping
+this keyword
+closure
+map reduce filter
+call backs
+promises
+async await
