@@ -1,0 +1,15 @@
+.root {
+  display: inline-block;
+  padding: auto;
+  margin: auto;
+}
+
+h4 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  text-align: left;
+}
+
+body {
+  background-color: lightcyan;
+}
