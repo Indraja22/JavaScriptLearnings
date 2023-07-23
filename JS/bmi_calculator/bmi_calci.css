@@ -1,0 +1,25 @@
+div {
+    height: 200px;
+    width: 20%;
+    background-color: aquamarine;
+    padding: 10px 10px;
+}
+
+input {
+    height: 20px;
+    display: flex;
+    margin: 5px 5px;
+}
+
+button {
+    margin: 5px 5px;
+    padding: 5px;
+}
+
+h2 {
+    color: brown;
+}
+
+h4 {
+    color: darkblue;
+}

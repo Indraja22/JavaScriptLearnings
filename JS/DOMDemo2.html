@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triggering Javascript Functions</title>
+</head>
+<script>
+    function showMessage(){
+        alert("Button is clicked!");
+    }
+    function changeColour(){
+        document.getElementById("myDiv").style.backgroundColor = "red";
+    }
+</script>
+<body>
+    <h1>Triggering Javascript Functions Example</h1>
+
+    <button onclick="showMessage()">Click Me</button>
+    <div id="myDiv" style="width: 200px; height: 200px; background-color: blue;"></div>
+    <button onclick="changeColour()">Change Colour</button>
+</body>
+</html>

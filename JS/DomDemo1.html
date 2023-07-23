@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+<body>
+    <h1 id="myHeading">Hello, World</h1>
+    <p id="myParagraph">This is a paragraph</p>
+</body>
+<script>
+    document.getElementById("myHeading").innerHTML = "New Heading";
+    document.getElementById("myParagraph").style.color = "red";
+    document.getElementById("myParagraph").textContent = "This is new paragraph."
+</script>
+</html>
