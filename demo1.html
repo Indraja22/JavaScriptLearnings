@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Aur JavaScript</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <script>
+        const startPrinting = function(){
+            console.log(Date.now());
+        }
+        let intervalID;
+        
+        document.querySelector('#start').addEventListener('click', function() {
+            intervalID = setInterval(startPrinting, 1000);
+        });
+        
+        document.querySelector('#stop').addEventListener('click', function() {
+            clearInterval(intervalID);
+        });
+    </script>
+</body>
+</html>

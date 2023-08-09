@@ -1,0 +1,31 @@
+    #blue-btn {
+        background-color: blue;
+        border-radius: 5px;
+        padding: 35px 35px;
+        border-style:solid;
+        border-color: black;
+    }
+
+    #yellow-btn {
+        background-color: yellow;
+        border-radius: 5px;
+        padding: 35px 35px;
+        border-style:solid;
+        border-color: black;
+    }
+
+    #white-btn {
+        background-color: white;
+        border-radius: 5px;
+        padding: 35px 35px;
+        border-style:solid;
+        border-color: black;
+    }
+
+    #grey-btn {
+        background-color: grey;
+        border-radius: 5px;
+        padding: 35px 35px;
+        border-style:solid;
+        border-color: black;
+    }
